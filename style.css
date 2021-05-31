@@ -10,33 +10,96 @@ body{
     min-width: 375px;
     font-size: 15px;
     max-width: 1440px;
+    background-color: hsl(0, 0%, 98%);
 }
 .container{
-    width: 27rem;
+    width: 24rem;
+    background-color: hsl(0, 0%, 98%);
+}
+.header{
+    text-align: center;
+}
+.header h1{
+    font-weight: 200;
+    margin: 2rem 0 0 0;
+    font-size: 1.9rem;
+}
+.header h2{
+    font-weight: 600;
+    margin: 0;
+    font-size: 1.9rem;
+}
+.header p{
+    font-size: 1.2rem;
+    color: hsl(229, 6%, 66%);
 }
 .header, .cards, footer{
     margin: auto;
-    width: 25rem;
+    width: 23.5rem;
+}
+.cards{
+    margin-top: 4rem;
 }
 .cards .supervisor{
+    height: 12rem;
+    background-color: white;
     border-top: 5px solid hsl(180, 62%, 55%);
     border-radius: 5px;
-    margin: 0.8rem 0 0.8rem 0;
-    box-shadow: 0px 0px 12px 2px rgb(179, 177, 177);
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 12px 2px rgb(209, 209, 209);
+    padding: 1rem;
+    color: hsl(229, 6%, 66%);
+}
+.cards .supervisor h2{
+    margin: 0;
+    color: black;
 }
 .cards .team{
+    height: 12rem;
+    background-color: white;
     border-top: 5px solid hsl(0, 78%, 62%);
     border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 12px 2px rgb(209, 209, 209);
+    padding: 1rem;
+    color: hsl(229, 6%, 66%);
+}
+.cards .team h2{
+    margin: 0;
+    color: black;
 }
 .cards .karma{
+    height: 12rem;
+    background-color: white;
     border-top: 5px solid hsl(34, 97%, 64%);
     border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 12px 2px rgb(209, 209, 209);
+    padding: 1rem;
+    color: hsl(229, 6%, 66%);
+}
+.cards .karma h2{
+    margin: 0;
+    color: black;
 }
 .cards .calculator{
+    height: 12rem;
+    background-color: white;
     border-top: 5px solid hsl(212, 86%, 64%);
     border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 12px 2px rgb(209, 209, 209);
+    padding: 1rem;
+    color: hsl(229, 6%, 66%);
+}
+.cards .calculator h2{
+    margin: 0;
+    color: black;
 }
 .icon{
     display: flex;
     justify-content: flex-end;
+}
+.attribution{
+    text-align: center;
 }
